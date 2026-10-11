@@ -8,7 +8,7 @@ export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
 # Server arguments
 PORT="${PORT:-9001}"
 GROUP_PORT="${GROUP_PORT:-51211}"
-ROLLOUT_NODE="${ROLLOUT_NODE:-a000}"
+ROLLOUT_NODE="${ROLLOUT_NODE:-}"
 SEED="${SEED:-910}"
 NAME="${NAME:-run$(date +%m%d_%H%M%S)}"
 
@@ -159,7 +159,7 @@ for ((SHARD_IDX=0; SHARD_IDX<TRAIN_STEPS; SHARD_IDX++)); do
         --loss_scale last_round \
         --use_vllm true \
         --vllm_mode server \
-        --vllm_server_host "${ROLLOUT_NODE}.ten.osc.edu" \
+        --vllm_server_host "${ROLLOUT_NODE}" \
         --vllm_server_port "${PORT}" \
         --vllm_server_group_port "${GROUP_PORT}" \
         --vllm_server_timeout 300 \

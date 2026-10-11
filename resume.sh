@@ -63,7 +63,7 @@ saved_or_default() {
 # Server settings may be overridden when reconnecting to the rollout server.
 PORT="${PORT:-9001}"
 GROUP_PORT="${GROUP_PORT:-51211}"
-ROLLOUT_NODE="${ROLLOUT_NODE:-a000}"
+ROLLOUT_NODE="${ROLLOUT_NODE:-}"
 SEED="${SEED:-$(saved_or_default SEED 910)}"
 
 MIN_CONTEXT_TURNS="${MIN_CONTEXT_TURNS:-$(saved_or_default MIN_CONTEXT_TURNS 0)}"
@@ -222,7 +222,7 @@ for ((SHARD_IDX=START_SHARD; SHARD_IDX<TRAIN_STEPS; SHARD_IDX++)); do
         --loss_scale last_round
         --use_vllm true
         --vllm_mode server
-        --vllm_server_host "${ROLLOUT_NODE}.ten.osc.edu"
+        --vllm_server_host "${ROLLOUT_NODE}"
         --vllm_server_port "${PORT}"
         --vllm_server_group_port "${GROUP_PORT}"
         --vllm_server_timeout 300

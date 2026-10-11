@@ -1,4 +1,4 @@
-BASE_MODEL="${BASE_MODEL:-/users/PAS1440/nnhoangtrieu/rdkit_llm/GeLLMO-P6-Llama}"
+BASE_MODEL="${BASE_MODEL:-/GeLLMO-P6-Llama}"
 PORT="${PORT:-9001}"
 
 CUDA_VISIBLE_DEVICES=0 swift rollout \
