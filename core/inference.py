@@ -251,7 +251,7 @@ def generate(
 
 def main(): 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--path_base_model", type=str, default="/users/PAS1440/nnhoangtrieu/rdkit_llm/GeLLMO-P6-Llama")
+    parser.add_argument("--path_base_model", type=str, default="/GeLLMO-P6-Llama")
     parser.add_argument("--path_checkpoint", type=str, required=True)
     parser.add_argument("--tasks", type=str, nargs="+", default=None)
     parser.add_argument("--num_turns", type=int, default=2)

@@ -148,7 +148,7 @@ def main():
     parser = argparse.ArgumentParser() 
     parser.add_argument("--train_data", type=str, default="data/train.jsonl")
     parser.add_argument("--output_dir", type=str, default="data/precomputed")
-    parser.add_argument("--path_base_model", type=str, default="/users/PAS1440/nnhoangtrieu/rdkit_llm/GeLLMO-P6-Llama")
+    parser.add_argument("--path_base_model", type=str, default="/GeLLMO-P6-Llama")
     parser.add_argument("--path_adapter", type=str, default="")
     parser.add_argument("--shard_size", type=int, default=8)
     parser.add_argument("--shard_idx", type=int, required=True)

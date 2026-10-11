@@ -14,21 +14,11 @@ import sascorer as sascorer
 
 
 DRD2_URLS = [
-             "http://a0107.ten.osc.edu:7000/score",
-             "http://a0111.ten.osc.edu:7001/score",
-             "http://a0116.ten.osc.edu:7002/score",
-             "http://a0118.ten.osc.edu:7003/score",
-             "http://a0123.ten.osc.edu:7004/score",
-             "http://a0102.ten.osc.edu:7005/score",
+
              ]
 
 ADMET_URLS = [
-              "http://a0138.ten.osc.edu:6000/predict",
-              "http://a0182.ten.osc.edu:6002/predict",
-              "http://a0184.ten.osc.edu:6003/predict",
-              "http://a0186.ten.osc.edu:6004/predict",
-              "http://a0194.ten.osc.edu:6005/predict",
-              "http://a0202.ten.osc.edu:6006/predict",
+
               ]
 
 
