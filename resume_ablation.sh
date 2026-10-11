@@ -68,7 +68,7 @@ ROLLOUT_NODE="${ROLLOUT_NODE:-a000}"
 SEED="${SEED:-910}"
 
 # Restore the original run configuration, while allowing explicit overrides.
-BASE_MODEL="${BASE_MODEL:-/users/PAS1440/nnhoangtrieu/rdkit_llm/GeLLMO-P6-Llama}"
+BASE_MODEL="${BASE_MODEL:-/GeLLMO-P6-Llama}"
 TRAIN_STEPS="${TRAIN_STEPS:-$(saved_or_default TRAIN_STEPS 1000)}"
 NUM_GENERATIONS="${NUM_GENERATIONS:-$(saved_or_default NUM_GENERATIONS 4)}"
 GENERATION_BATCH_SIZE="${GENERATION_BATCH_SIZE:-$(saved_or_default GENERATION_BATCH_SIZE 24)}"

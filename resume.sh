@@ -75,7 +75,7 @@ LORA_ALPHA="${LORA_ALPHA:-$(saved_or_default LORA_ALPHA 32)}"
 LORA_DROPOUT="${LORA_DROPOUT:-$(saved_or_default LORA_DROPOUT 0.05)}"
 TARGET_MODULES="${TARGET_MODULES:-$(saved_or_default TARGET_MODULES all-linear)}"
 
-BASE_MODEL="${BASE_MODEL:-$(saved_or_default BASE_MODEL /users/PAS1440/nnhoangtrieu/rdkit_llm/GeLLMO-P6-Llama)}"
+BASE_MODEL="${BASE_MODEL:-$(saved_or_default BASE_MODEL /GeLLMO-P6-Llama)}"
 TRAIN_STEPS="${TRAIN_STEPS:-$(saved_or_default TRAIN_STEPS 1000)}"
 NUM_GENERATIONS="${NUM_GENERATIONS:-$(saved_or_default NUM_GENERATIONS 4)}"
 GENERATION_BATCH_SIZE="${GENERATION_BATCH_SIZE:-$(saved_or_default GENERATION_BATCH_SIZE 24)}"
