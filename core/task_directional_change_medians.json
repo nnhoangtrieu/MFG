@@ -1,0 +1,320 @@
+{
+    "HMPQ": {
+        "hia": 0.24,
+        "mutagenicity": 0.18,
+        "plogp": 1.745,
+        "qed": 0.17
+    },
+    "DHMP": {
+        "drd2": 0.43,
+        "hia": 0.21,
+        "mutagenicity": 0.26,
+        "plogp": 1.5899999999999999
+    },
+    "Q": {
+        "qed": 0.15
+    },
+    "BHP": {
+        "bbbp": 0.36,
+        "hia": 0.43,
+        "plogp": 2.44
+    },
+    "H": {
+        "hia": 0.27
+    },
+    "BMP": {
+        "bbbp": 0.30000000000000004,
+        "mutagenicity": 0.17,
+        "plogp": 1.7000000000000002
+    },
+    "BP": {
+        "bbbp": 0.32,
+        "plogp": 1.94
+    },
+    "B": {
+        "bbbp": 0.29
+    },
+    "DPQ": {
+        "drd2": 0.45,
+        "plogp": 1.53,
+        "qed": 0.18
+    },
+    "BDMP": {
+        "bbbp": 0.29,
+        "drd2": 0.36,
+        "mutagenicity": 0.2,
+        "plogp": 1.3900000000000001
+    },
+    "BQ": {
+        "bbbp": 0.29,
+        "qed": 0.17
+    },
+    "BDHP": {
+        "bbbp": 0.32,
+        "drd2": 0.43,
+        "hia": 0.25,
+        "plogp": 1.97
+    },
+    "DP": {
+        "drd2": 0.4,
+        "plogp": 1.4
+    },
+    "DMPQ": {
+        "drd2": 0.41000000000000003,
+        "mutagenicity": 0.22,
+        "plogp": 1.43,
+        "qed": 0.18
+    },
+    "P": {
+        "plogp": 1.5899999999999999
+    },
+    "DHQ": {
+        "drd2": 0.42,
+        "hia": 0.2,
+        "qed": 0.23
+    },
+    "BM": {
+        "bbbp": 0.28,
+        "mutagenicity": 0.17
+    },
+    "BDHMPQ": {
+        "bbbp": 0.26,
+        "drd2": 0.44,
+        "hia": 0.26,
+        "mutagenicity": 0.26,
+        "plogp": 1.3900000000000001,
+        "qed": 0.21
+    },
+    "BPQ": {
+        "bbbp": 0.33,
+        "plogp": 1.83,
+        "qed": 0.15
+    },
+    "BDHMQ": {
+        "bbbp": 0.28,
+        "drd2": 0.41000000000000003,
+        "hia": 0.24,
+        "mutagenicity": 0.17,
+        "qed": 0.25
+    },
+    "DQ": {
+        "drd2": 0.39,
+        "qed": 0.18
+    },
+    "D": {
+        "drd2": 0.36
+    },
+    "BDHPQ": {
+        "bbbp": 0.395,
+        "drd2": 0.46,
+        "hia": 0.25,
+        "plogp": 2.01,
+        "qed": 0.28
+    },
+    "BDMQ": {
+        "bbbp": 0.28,
+        "drd2": 0.38,
+        "mutagenicity": 0.18,
+        "qed": 0.21
+    },
+    "BH": {
+        "bbbp": 0.36,
+        "hia": 0.36
+    },
+    "BDMPQ": {
+        "bbbp": 0.29,
+        "drd2": 0.43,
+        "mutagenicity": 0.21,
+        "plogp": 1.32,
+        "qed": 0.19
+    },
+    "BMQ": {
+        "bbbp": 0.28,
+        "mutagenicity": 0.17,
+        "qed": 0.16
+    },
+    "BHM": {
+        "bbbp": 0.34,
+        "hia": 0.25,
+        "mutagenicity": 0.16
+    },
+    "BHMPQ": {
+        "bbbp": 0.33,
+        "hia": 0.25,
+        "mutagenicity": 0.16,
+        "plogp": 2.0300000000000002,
+        "qed": 0.17
+    },
+    "BMPQ": {
+        "bbbp": 0.30000000000000004,
+        "mutagenicity": 0.17,
+        "plogp": 1.48,
+        "qed": 0.16
+    },
+    "MP": {
+        "mutagenicity": 0.19,
+        "plogp": 1.58
+    },
+    "BHPQ": {
+        "bbbp": 0.39,
+        "hia": 0.44,
+        "plogp": 2.43,
+        "qed": 0.15
+    },
+    "BDP": {
+        "bbbp": 0.30000000000000004,
+        "drd2": 0.4,
+        "plogp": 1.45
+    },
+    "BDHMP": {
+        "bbbp": 0.28,
+        "drd2": 0.445,
+        "hia": 0.215,
+        "mutagenicity": 0.245,
+        "plogp": 1.75
+    },
+    "M": {
+        "mutagenicity": 0.18
+    },
+    "BD": {
+        "bbbp": 0.28,
+        "drd2": 0.36
+    },
+    "BHMQ": {
+        "bbbp": 0.34,
+        "hia": 0.22,
+        "mutagenicity": 0.16,
+        "qed": 0.16
+    },
+    "HMQ": {
+        "hia": 0.2,
+        "mutagenicity": 0.18,
+        "qed": 0.16
+    },
+    "HPQ": {
+        "hia": 0.36,
+        "plogp": 2.2,
+        "qed": 0.15
+    },
+    "HQ": {
+        "hia": 0.27,
+        "qed": 0.15
+    },
+    "BHMP": {
+        "bbbp": 0.33,
+        "hia": 0.26,
+        "mutagenicity": 0.16,
+        "plogp": 2.29
+    },
+    "MQ": {
+        "mutagenicity": 0.19,
+        "qed": 0.15
+    },
+    "BDM": {
+        "bbbp": 0.28,
+        "drd2": 0.34,
+        "mutagenicity": 0.17
+    },
+    "PQ": {
+        "plogp": 1.55,
+        "qed": 0.14
+    },
+    "BDHM": {
+        "bbbp": 0.29,
+        "drd2": 0.38,
+        "hia": 0.23,
+        "mutagenicity": 0.18
+    },
+    "BHQ": {
+        "bbbp": 0.38,
+        "hia": 0.33,
+        "qed": 0.15
+    },
+    "DHP": {
+        "drd2": 0.42,
+        "hia": 0.23,
+        "plogp": 1.77
+    },
+    "BDHQ": {
+        "bbbp": 0.37,
+        "drd2": 0.435,
+        "hia": 0.215,
+        "qed": 0.265
+    },
+    "DMP": {
+        "drd2": 0.4,
+        "mutagenicity": 0.2,
+        "plogp": 1.43
+    },
+    "BDQ": {
+        "bbbp": 0.29,
+        "drd2": 0.38,
+        "qed": 0.2
+    },
+    "DM": {
+        "drd2": 0.36,
+        "mutagenicity": 0.18
+    },
+    "HM": {
+        "hia": 0.21,
+        "mutagenicity": 0.18
+    },
+    "DHPQ": {
+        "drd2": 0.45,
+        "hia": 0.24,
+        "plogp": 1.7149999999999999,
+        "qed": 0.22
+    },
+    "MPQ": {
+        "mutagenicity": 0.21,
+        "plogp": 1.43,
+        "qed": 0.14
+    },
+    "DH": {
+        "drd2": 0.38,
+        "hia": 0.21
+    },
+    "BDH": {
+        "bbbp": 0.33,
+        "drd2": 0.39,
+        "hia": 0.23
+    },
+    "DHMQ": {
+        "drd2": 0.41000000000000003,
+        "hia": 0.2,
+        "mutagenicity": 0.27,
+        "qed": 0.23
+    },
+    "DMQ": {
+        "drd2": 0.39,
+        "mutagenicity": 0.2,
+        "qed": 0.19
+    },
+    "BDPQ": {
+        "bbbp": 0.33,
+        "drd2": 0.48,
+        "plogp": 1.5899999999999999,
+        "qed": 0.21
+    },
+    "DHM": {
+        "drd2": 0.4,
+        "hia": 0.19,
+        "mutagenicity": 0.22
+    },
+    "HMP": {
+        "hia": 0.24,
+        "mutagenicity": 0.17,
+        "plogp": 1.8900000000000001
+    },
+    "DHMPQ": {
+        "drd2": 0.44,
+        "hia": 0.25,
+        "mutagenicity": 0.39,
+        "plogp": 1.47,
+        "qed": 0.21
+    },
+    "HP": {
+        "hia": 0.31,
+        "plogp": 2.1
+    }
+}
